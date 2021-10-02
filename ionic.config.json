@@ -1,0 +1,7 @@
+{
+  "name": "DISM_p1",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
