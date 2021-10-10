@@ -1,17 +1,23 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 2
+      Listado de partes
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+<ion-content class="ion-padding">
+  <ion-list>
+    <ion-item *ngFor="let item of parteData">
+      <ion-label>
+        <h2>{{item.fecha}}</h2>
+        <p>{{item.hora}}</p>
+        <p>{{item.descripcion}}</p>
+      </ion-label>
+      <ion-button (click)="detalle(item)" color="tertiary" size="small"><ion-icon name="list"></ion-icon></ion-button>
+      <ion-button (click)="editar(item)" color="warning" size="small"><ion-icon name="create"></ion-icon></ion-button>
+      <ion-button (click)="delete(item)" color="danger" size="small"><ion-icon name="trash"></ion-icon></ion-button>
+    </ion-item>
+  </ion-list>
+  
 </ion-content>

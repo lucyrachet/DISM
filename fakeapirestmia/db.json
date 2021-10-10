@@ -1,0 +1,72 @@
+{
+  "clientes": [
+    {
+      "id": "1",
+      "nombre": "Sergio",
+      "edad": "34",
+      "email": "aaa@gmail.com"
+    },
+    {
+      "id": "2",
+      "nombre": "Hugo"
+    },
+    {
+      "id": "3",
+      "nombre": "Estela"
+    },
+    {
+      "id": "4",
+      "nombre": "Soledad"
+    },
+    {
+      "id": "5",
+      "nombre": "Juan"
+    }
+  ],
+  "partes": [
+    {
+      "id": "1",
+      "identidficador": 1,
+      "fecha": "11-06-2021",
+      "hora": "12:30",
+      "descripcion": "cualquier cosa",
+      "resuelta": "true",
+      "tiempo": "4"
+    },
+    {
+      "id": "2",
+      "identidficador": 1,
+      "fecha": "13-06-2021",
+      "hora": "12:00",
+      "descripcion": "cualquier cosa 2",
+      "resuelta": "true",
+      "tiempo": "6"
+    },
+    {
+      "Identificador": 1,
+      "fecha": "2021-10-22",
+      "hora": "11:11",
+      "descripcion": "asdfasdf",
+      "tiempo": 1,
+      "id": "JKsOlEJ"
+    },
+    {
+      "Identificador": 1,
+      "fecha": "2021-10-22",
+      "hora": "11:11",
+      "descripcion": "asdfasdf",
+      "tiempo": 1,
+      "resuelta": false,
+      "id": "b63-mEB"
+    },
+    {
+      "resuelta": false,
+      "Identificador": 1,
+      "fecha": "2021-10-13",
+      "hora": "11:02",
+      "descripcion": "asfddsf",
+      "tiempo": 1,
+      "id": "1yRhlFM"
+    }
+  ]
+}

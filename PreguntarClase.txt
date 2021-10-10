@@ -1,0 +1,1 @@
+En models/parte.ts number es igual que integer? Para hacer
